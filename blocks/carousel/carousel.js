@@ -1,4 +1,4 @@
-import { fetchPlaceholders, getMetadata } from "../../scripts/aem.js";
+import { fetchPlaceholders, getMetadata, createOptimizedPicture } from "../../scripts/aem.js";
 const placeholders = await fetchPlaceholders(getMetadata("locale"));
 
 const { btnNxt = ">>", btnPre = "<<" } = placeholders;
@@ -23,6 +23,16 @@ export default function decorate(block) {
     } else {
       row.classList.add("slide");
       [...row.children].forEach((col, c) => {
+        if (c === 0) {
+          const img = col.querySelector("img");
+          if (img) {
+            const newPicture = createOptimizedPicture(img.src, img.alt, false, [
+              { media: "(min-width: 600px)", width: "1600" },
+              { width: "750" },
+            ]);
+            col.querySelector("picture").replaceWith(newPicture);
+          }
+        }
         if (c == 1) {
           col.classList.add("slide-text");
         }
