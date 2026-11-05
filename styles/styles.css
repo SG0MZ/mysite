@@ -323,3 +323,31 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+main .aqua {
+  background-color: aqua;
+}
+
+main .yellow {
+  background-color: yellow;
+}
+
+main .red {
+  background-color: red;
+}
+
+main .blue {
+  background-color: blue;
+}
+
+main .orange {
+  background-color: orange;
+}
+
+main .white-text {
+  color: white;
+}
+
+main .blueviolet-text {
+  color: blueviolet;
+}
