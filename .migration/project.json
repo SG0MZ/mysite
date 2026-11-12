@@ -1,0 +1,10 @@
+{
+  "type": "xwalk",
+  "sites": {
+    "mysite": {
+      "previewOrg": "sg0mz",
+      "previewSite": "mysite",
+      "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json"
+    }
+  }
+}

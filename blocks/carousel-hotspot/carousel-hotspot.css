@@ -1,0 +1,250 @@
+.carousel-hotspot {
+  position: relative;
+}
+
+.carousel-hotspot .carousel-hotspot-slides {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  cursor: grab;
+}
+
+.carousel-hotspot .carousel-hotspot-slides::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-hotspot .carousel-hotspot-slides.is-dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+  cursor: grabbing;
+  user-select: none;
+}
+
+/* about 2.5-3 slides visible; the last one bleeds off the right edge */
+.carousel-hotspot .carousel-hotspot-slide {
+  position: relative;
+  flex: 0 0 80%;
+  scroll-snap-align: start;
+}
+
+.carousel-hotspot .carousel-hotspot-slide-image,
+.carousel-hotspot .carousel-hotspot-slide-image picture {
+  display: block;
+  line-height: 0;
+}
+
+.carousel-hotspot .carousel-hotspot-slide-image img {
+  width: 100%;
+  height: 464px;
+  object-fit: cover;
+  -webkit-user-drag: none;
+}
+
+.carousel-hotspot .carousel-hotspot-hotspots {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.carousel-hotspot .carousel-hotspot-hotspot {
+  position: absolute;
+  left: var(--hotspot-x, 50%);
+  top: var(--hotspot-y, 50%);
+  transform: translate(-50%, -50%);
+  pointer-events: auto;
+}
+
+.carousel-hotspot .carousel-hotspot-pin {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: rgb(51 51 51 / 30%);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* plus icon; turns into a minus when open */
+.carousel-hotspot .carousel-hotspot-pin::before,
+.carousel-hotspot .carousel-hotspot-pin::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 2px;
+  background: currentcolor;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-hotspot .carousel-hotspot-pin::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.carousel-hotspot .carousel-hotspot-pin[aria-expanded='true']::after {
+  display: none;
+}
+
+.carousel-hotspot .carousel-hotspot-popover {
+  position: absolute;
+  top: 0;
+  left: calc(100% + 8px);
+  z-index: 2;
+  box-sizing: border-box;
+  width: 201px;
+  padding: 8px 32px 16px 8px;
+  background: #fff;
+  color: #333;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 20%);
+}
+
+.carousel-hotspot .carousel-hotspot-popover[hidden] {
+  display: none;
+}
+
+.carousel-hotspot .carousel-hotspot-hotspot-left .carousel-hotspot-popover {
+  left: auto;
+  right: calc(100% + 8px);
+}
+
+.carousel-hotspot .carousel-hotspot-hotspot-above .carousel-hotspot-popover {
+  top: auto;
+  bottom: 0;
+}
+
+.carousel-hotspot .carousel-hotspot-popover > :is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 4px 0;
+}
+
+.carousel-hotspot .carousel-hotspot-popover-close {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.carousel-hotspot .carousel-hotspot-popover-close::before,
+.carousel-hotspot .carousel-hotspot-popover-close::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 2px;
+  background: currentcolor;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.carousel-hotspot .carousel-hotspot-popover-close::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* controls: arrows left, progress bar right */
+.carousel-hotspot .carousel-hotspot-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.carousel-hotspot .carousel-hotspot-controls[hidden] {
+  display: none;
+}
+
+.carousel-hotspot .carousel-hotspot-arrows {
+  display: flex;
+  gap: 8px;
+}
+
+.carousel-hotspot .carousel-hotspot-prev,
+.carousel-hotspot .carousel-hotspot-next {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid currentcolor;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.carousel-hotspot .carousel-hotspot-next {
+  border-color: transparent;
+  background: var(--link-color, #00843d);
+  color: #fff;
+}
+
+.carousel-hotspot .carousel-hotspot-prev:disabled,
+.carousel-hotspot .carousel-hotspot-next:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.carousel-hotspot .carousel-hotspot-prev::after,
+.carousel-hotspot .carousel-hotspot-next::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border: 2px solid currentcolor;
+  border-bottom: 0;
+  border-left: 0;
+  transform: translate(-30%, -50%) rotate(-135deg);
+}
+
+.carousel-hotspot .carousel-hotspot-next::after {
+  transform: translate(-70%, -50%) rotate(45deg);
+}
+
+.carousel-hotspot .carousel-hotspot-progress {
+  position: relative;
+  flex: 0 1 25%;
+  height: 4px;
+  background: rgb(0 0 0 / 10%);
+}
+
+.carousel-hotspot .carousel-hotspot-progress-bar {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: calc(var(--progress, 0) * 100%);
+  background: var(--link-color, #00843d);
+  transition: width 0.2s;
+}
+
+@media (width >= 600px) {
+  .carousel-hotspot .carousel-hotspot-slide {
+    flex-basis: 315px;
+  }
+}
+
+@media (width >= 900px) {
+  .carousel-hotspot .carousel-hotspot-slide {
+    flex-basis: 410px;
+  }
+
+  .carousel-hotspot .carousel-hotspot-slide-image img {
+    height: 516px;
+  }
+}

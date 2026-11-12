@@ -1,0 +1,17 @@
+{
+  "variantName": "hero-video",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Background video hero: autoplay, muted, looping mp4 behind a dark overlay with poster fallback; H1, subtext and green pill CTA bottom-left; pause/play toggle bottom-right.",
+  "contentPattern": "Hero with autoplay background video, H1 'Design an exterior you'll love coming home to', subtext, CTA 'Start your design', pause button",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Top-of-page hero with a looping muted background video over a poster image, a heading, short subtext and one CTA.",
+  "reuseGuidance": "Use when the hero media is a video. For a still image hero use hero. Without a video link it renders as an image hero.",
+  "structure": [
+    "Row 1: poster picture and a link to the .mp4 video file",
+    "Row 2: H1, subheading paragraph, CTA link"
+  ],
+  "sectionMetadata": [],
+  "sourceUrl": "https://www.jameshardie.com/"
+}

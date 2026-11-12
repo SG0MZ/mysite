@@ -1,0 +1,20 @@
+{
+  "variantName": "cards-blog-slider",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "White article cards (image top, title with arrow icon, outlined category tag pill) in a horizontal slider (about 4.3 visible) with prev/next arrows and progress bar; swipe/drag.",
+  "contentPattern": "6 blog article cards in a slider: image, title linking to the article, category tag link (Siding Pro Resources / Exterior Design)",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Horizontal slider of article cards (image, linked title with arrow, category tag pills).",
+  "reuseGuidance": "One row per article: image | title (linked heading) and a paragraph of category tag links. The title link makes the whole card clickable; tags stay separately clickable.",
+  "structure": [
+    "One row per article: image | linked title, category tag links"
+  ],
+  "sectionMetadata": [
+    {
+      "style": "beige"
+    }
+  ],
+  "sourceUrl": "https://www.jameshardie.com/"
+}

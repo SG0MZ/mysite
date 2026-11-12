@@ -1,0 +1,198 @@
+{
+  "templates": [
+    {
+      "name": "home",
+      "urls": [
+        "https://www.jameshardie.com/"
+      ],
+      "representativeUrl": "https://www.jameshardie.com/",
+      "description": "James Hardie homepage: video hero, product hotspot carousel, video carousel, Hover designer embed, tabbed media, social gallery, blog slider and footnotes",
+      "blocks": [
+        {
+          "name": "hero-video",
+          "instances": [
+            "#main-content > div.hero-video-overlay",
+            ".hero-video-overlay"
+          ]
+        },
+        {
+          "name": "carousel-hotspot",
+          "instances": [
+            "#main-content > div.slim .splide",
+            "#splide01"
+          ]
+        },
+        {
+          "name": "carousel-video",
+          "instances": [
+            "#main-content > div.max-w-screen-1440p.my-10 .splide",
+            "#splide02"
+          ]
+        },
+        {
+          "name": "embed-designer",
+          "instances": [
+            "#hover-website-embed"
+          ]
+        },
+        {
+          "name": "tabs-media-split",
+          "instances": [
+            "#main-content > div.w-full.max-w-screen-1440p.m-auto.flex.flex-col > div:has(.textImageItem)"
+          ]
+        },
+        {
+          "name": "cards-social-grid",
+          "instances": [
+            ".swe_embed[id^=\"sprinklr-embed-\"]",
+            ".swe_embed"
+          ]
+        },
+        {
+          "name": "cards-blog-slider",
+          "instances": [
+            "#main-content div.max-w-screen-1440p.pt-10.pb-12 .splide",
+            "#splide03"
+          ]
+        }
+      ],
+      "urlPattern": "/",
+      "sections": [
+        {
+          "id": "rc2",
+          "name": "Hero",
+          "selector": [
+            "#main-content > div.hero-video-overlay"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-video"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc3",
+          "name": "Explore our products",
+          "selector": [
+            "#main-content > div.slim"
+          ],
+          "style": null,
+          "blocks": [
+            "carousel-hotspot"
+          ],
+          "defaultContent": [
+            "#main-content > div.slim .inner-container.pb-6",
+            "#main-content > div.slim > div.relative > div.inner-container:last-child"
+          ]
+        },
+        {
+          "id": "rc4",
+          "name": "Discover what sets us apart",
+          "selector": [
+            "#main-content > div.max-w-screen-1440p.my-10"
+          ],
+          "style": null,
+          "blocks": [
+            "carousel-video"
+          ],
+          "defaultContent": [
+            "#main-content > div.max-w-screen-1440p.my-10 > div.block.mb-6"
+          ]
+        },
+        {
+          "id": "rc5",
+          "name": "Hover designer embed",
+          "selector": [
+            "#main-content > div.base-container-background"
+          ],
+          "style": null,
+          "blocks": [
+            "embed-designer"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc6",
+          "name": "Hardie Designer intro",
+          "selector": [
+            "#main-content > div.w-full.flex.flex-col.items-center.bg-transparent"
+          ],
+          "style": "centered",
+          "blocks": [],
+          "defaultContent": [
+            "#main-content > div.w-full.flex.flex-col.items-center.bg-transparent > div > div"
+          ]
+        },
+        {
+          "id": "rc7",
+          "name": "Hardie Designer tabs",
+          "selector": [
+            "#main-content > div.w-full.max-w-screen-1440p.m-auto.flex.flex-col"
+          ],
+          "style": null,
+          "blocks": [
+            "tabs-media-split"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc8",
+          "name": "Social gallery",
+          "selector": [
+            "#main-content > div.w-full:has(.swe_embed)",
+            "#main-content > div.w-full:nth-of-type(8)"
+          ],
+          "style": "light-grey",
+          "blocks": [
+            "cards-social-grid"
+          ],
+          "defaultContent": [
+            "#main-content > div.w-full:has(.swe_embed) .inner-container > div.block.pb-8"
+          ]
+        },
+        {
+          "id": "rc9",
+          "name": "Latest blog posts",
+          "selector": [
+            "#main-content > div.w-full:has(div.max-w-screen-1440p.pt-10.pb-12)",
+            "#main-content > div.w-full:nth-of-type(9)"
+          ],
+          "style": "beige",
+          "blocks": [
+            "cards-blog-slider"
+          ],
+          "defaultContent": [
+            "#main-content div.max-w-screen-1440p.pt-10.pb-12 > div.block.pb-8"
+          ]
+        },
+        {
+          "id": "rc10",
+          "name": "Footnote 1",
+          "selector": [
+            "#main-content > div.bg-neutral-color-high:nth-of-type(10)"
+          ],
+          "style": "dark",
+          "blocks": [],
+          "defaultContent": [
+            "#main-content > div.bg-neutral-color-high:nth-of-type(10) .inner-container"
+          ]
+        },
+        {
+          "id": "rc11",
+          "name": "Footnote 2",
+          "selector": [
+            "#main-content > div.bg-neutral-color-high:nth-of-type(11)"
+          ],
+          "style": "dark",
+          "blocks": [],
+          "defaultContent": [
+            "#main-content > div.bg-neutral-color-high:nth-of-type(11) .inner-container"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "projectType": "xwalk"
+  }
+}
