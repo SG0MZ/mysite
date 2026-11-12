@@ -1,0 +1,16 @@
+{
+  "variantName": "carousel-hotspot",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Product photo slider: about 2.5-3 slides visible, bleeding off the right edge; each slide is a lifestyle image with (+) hotspot buttons that open a popover card (product name, color, View product link); prev/next circular arrows bottom-left (next is green filled), thin progress bar bottom-right; swipe/drag.",
+  "contentPattern": "Image carousel of 5 product lifestyle photos with interactive (+) hotspots; clicking a hotspot opens a popover with product name (Hardie Plank), color (Mountain Sage) and 'View product' link; prev/next arrow buttons and a progress bar",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Horizontal slider of product lifestyle photos, each with (+) hotspots that open a product popover.",
+  "reuseGuidance": "One row per slide: image in cell 1; cell 2 holds the hotspots. Each heading starts a hotspot (heading, color/description paragraph, link). An optional paragraph \"x, y\" (percent of image width/height, e.g. \"40, 60\") places the hotspot; otherwise default positions are used.",
+  "structure": [
+    "One row per slide: image | hotspots (heading per hotspot, optional \"x, y\" line, text, link)"
+  ],
+  "sectionMetadata": [],
+  "sourceUrl": "https://www.jameshardie.com/"
+}

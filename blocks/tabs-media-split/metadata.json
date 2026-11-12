@@ -1,0 +1,16 @@
+{
+  "variantName": "tabs-media-split",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Centered tab labels with a green underline on the active tab; clicking switches the panel; panel splits text (H2, paragraph, arrow link) left and an autoplay muted looping video in a dark rounded frame right, with a pause toggle.",
+  "contentPattern": "Tabs: Get Design Ideas / Discover Materials / Save And Share / Make It Real; panels: 'Explore instant home inspiration' (+ Try on your home link), 'Customize every detail', 'Get feedback on your designs', 'Find a pro and get quotes' (+ Request a quote link); each with an autoplay mp4 video (james-hardie.bynder.com)",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Tabbed feature showcase: each tab shows text (heading, paragraph, link) beside an autoplaying muted video or an image.",
+  "reuseGuidance": "One row per tab: tab label | content with heading, text, optional link and a link to an .mp4 video (or a picture). Only the active tab's video plays, and only while on screen.",
+  "structure": [
+    "One row per tab: label | heading, paragraph, link, video link or picture"
+  ],
+  "sectionMetadata": [],
+  "sourceUrl": "https://www.jameshardie.com/"
+}

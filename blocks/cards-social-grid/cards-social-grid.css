@@ -1,0 +1,180 @@
+.cards-social-grid > ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards-social-grid .cards-social-grid-card {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: #ddd;
+}
+
+.cards-social-grid .cards-social-grid-card[hidden] {
+  display: none;
+}
+
+.cards-social-grid .cards-social-grid-card-image,
+.cards-social-grid .cards-social-grid-card-image picture {
+  position: absolute;
+  inset: 0;
+  line-height: 0;
+}
+
+.cards-social-grid .cards-social-grid-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* author, handle and date revealed over the image on hover or keyboard focus */
+.cards-social-grid .cards-social-grid-card-body {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 12px;
+  overflow: hidden;
+  background: rgb(0 0 0 / 55%);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.cards-social-grid .cards-social-grid-card-body > * {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cards-social-grid .cards-social-grid-card:hover .cards-social-grid-card-body,
+.cards-social-grid .cards-social-grid-card:focus-within .cards-social-grid-card-body {
+  opacity: 1;
+}
+
+.cards-social-grid .cards-social-grid-open {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.cards-social-grid .cards-social-grid-open:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: -3px;
+}
+
+.cards-social-grid .cards-social-grid-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.cards-social-grid .cards-social-grid-load-more {
+  margin: 0;
+  padding: 8px 24px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--link-color, #00843d);
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* post overlay */
+/* stylelint-disable no-descending-specificity */
+.cards-social-grid .cards-social-grid-modal {
+  box-sizing: border-box;
+  width: min(900px, 92vw);
+  max-height: 90dvh;
+  padding: 48px 16px 16px;
+  border: 0;
+  background: #fff;
+  color: #333;
+}
+
+.cards-social-grid .cards-social-grid-modal::backdrop {
+  background: rgb(0 0 0 / 70%);
+}
+
+.cards-social-grid .cards-social-grid-post {
+  display: grid;
+  gap: 16px;
+}
+
+.cards-social-grid .cards-social-grid-post .cards-social-grid-card-image,
+.cards-social-grid .cards-social-grid-post .cards-social-grid-card-image picture,
+.cards-social-grid .cards-social-grid-post .cards-social-grid-card-body {
+  position: static;
+  opacity: 1;
+  padding: 0;
+  background: none;
+  color: inherit;
+}
+
+/* stylelint-enable no-descending-specificity */
+
+.cards-social-grid .cards-social-grid-post img {
+  width: 100%;
+  height: auto;
+  max-height: 70dvh;
+  object-fit: contain;
+}
+
+.cards-social-grid .cards-social-grid-modal-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.cards-social-grid .cards-social-grid-modal-close::before,
+.cards-social-grid .cards-social-grid-modal-close::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 2px;
+  background: currentcolor;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.cards-social-grid .cards-social-grid-modal-close::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+@media (width >= 600px) {
+  .cards-social-grid > ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .cards-social-grid > ul {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .cards-social-grid .cards-social-grid-post {
+    grid-template-columns: 3fr 2fr;
+    align-items: start;
+  }
+}

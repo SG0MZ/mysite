@@ -1,0 +1,132 @@
+.hero-video-container .hero-video-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero-video {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 600px;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.hero-video .hero-video-media {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.hero-video .hero-video-media picture,
+.hero-video .hero-video-media img,
+.hero-video .hero-video-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-video .hero-video-video {
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.hero-video.hero-video-is-playing .hero-video-video {
+  opacity: 1;
+}
+
+/* legibility overlay over the poster and video */
+.hero-video .hero-video-media::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgb(0 0 0 / 35%);
+}
+
+.hero-video .hero-video-content {
+  position: relative;
+  padding: 40px 24px 96px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.hero-video .hero-video-text > :first-child {
+  margin-top: 0;
+}
+
+.hero-video .hero-video-toggle {
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  border: 2px solid currentcolor;
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* pause icon: two bars */
+.hero-video .hero-video-toggle::before,
+.hero-video .hero-video-toggle::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 3px;
+  height: 14px;
+  background: currentcolor;
+  transform: translateY(-50%);
+}
+
+.hero-video .hero-video-toggle::before {
+  left: calc(50% - 5px);
+}
+
+.hero-video .hero-video-toggle::after {
+  left: calc(50% + 2px);
+}
+
+/* play icon: triangle */
+.hero-video .hero-video-toggle[data-state='paused']::before {
+  left: calc(50% - 3px);
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 11px solid currentcolor;
+  background: none;
+}
+
+.hero-video .hero-video-toggle[data-state='paused']::after {
+  display: none;
+}
+
+@media (width >= 900px) {
+  .hero-video {
+    min-height: 710px;
+  }
+
+  .hero-video .hero-video-content {
+    width: 58%;
+    padding: 64px 80px 120px;
+  }
+
+  .hero-video .hero-video-toggle {
+    right: 80px;
+    bottom: 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-video .hero-video-video {
+    transition: none;
+  }
+}

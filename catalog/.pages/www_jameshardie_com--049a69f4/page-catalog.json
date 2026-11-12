@@ -1,0 +1,1580 @@
+{
+  "schemaVersion": 2,
+  "url": "https://www.jameshardie.com/",
+  "title": "House Siding & Backer Board | James Hardie",
+  "timestamp": "2026-11-12T20:44:53.307Z",
+  "duration": "35.3s",
+  "cleanup": {
+    "elementsRemoved": 7,
+    "types": [
+      "overlay",
+      "cookie-banner",
+      "popup"
+    ],
+    "cookieConsentDismissed": true,
+    "lateConsentOverlaysRemoved": 1,
+    "removed": [
+      {
+        "selector": "div.swe_card_container_outer",
+        "type": "overlay"
+      },
+      {
+        "selector": "div.onetrust-pc-dark-filter.ot-fade-in",
+        "type": "overlay"
+      },
+      {
+        "selector": "#onetrust-banner-sdk",
+        "type": "overlay"
+      },
+      {
+        "selector": "#onetrust-style",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "#onetrust-consent-sdk",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "#modal-base-stories-modal",
+        "type": "popup",
+        "rule": "[role=\"dialog\"]"
+      }
+    ]
+  },
+  "snapshot": {
+    "html": "page.html",
+    "unresolvedSelectors": []
+  },
+  "images": [
+    {
+      "url": "https://images.ctfassets.net/dzi2asncd44t/1zXM9ZVxSHpXuLLWzOIf5s/8c5abf86f25fc326af14728a31407f5d/james-hardie-vector-logo.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2NGPLdWvwBOEBk0D10bjbQ%2F8fa9fd7dd9e6999fdade5ab6755a88c6%2F2_Friesian_Court__Oro_-_Medonte_20261007_Exterior_-_004__1_.jpg&w=640&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2NGPLdWvwBOEBk0D10bjbQ%2F8fa9fd7dd9e6999fdade5ab6755a88c6%2F2_Friesian_Court__Oro_-_Medonte_20261007_Exterior_-_004__1_.jpg&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2NGPLdWvwBOEBk0D10bjbQ%2F8fa9fd7dd9e6999fdade5ab6755a88c6%2F2_Friesian_Court__Oro_-_Medonte_20261007_Exterior_-_004__1_.jpg&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4IpyU2BN7ksTmRRcE1aWKk%2F77d22e02fbd76d4fa7f63e44c3665486%2FScreenshot_14-4-2025_162320_www.dropbox.com.jpeg&w=640&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4IpyU2BN7ksTmRRcE1aWKk%2F77d22e02fbd76d4fa7f63e44c3665486%2FScreenshot_14-4-2025_162320_www.dropbox.com.jpeg&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4IpyU2BN7ksTmRRcE1aWKk%2F77d22e02fbd76d4fa7f63e44c3665486%2FScreenshot_14-4-2025_162320_www.dropbox.com.jpeg&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2FyfQkVYQUCAAAm1mCPrK5V%2F2b455a6cec794ec8c17873dc3ada2778%2Fhardie-plank-contractors.jpg&w=640&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2FyfQkVYQUCAAAm1mCPrK5V%2F2b455a6cec794ec8c17873dc3ada2778%2Fhardie-plank-contractors.jpg&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2FyfQkVYQUCAAAm1mCPrK5V%2F2b455a6cec794ec8c17873dc3ada2778%2Fhardie-plank-contractors.jpg&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F7DDE4Tm5qhv4q2XR9SOX4k%2F196f771d067ebe931cd044019906e86b%2Fmother-daughter-modern-house-hardie-plank-panel.jpg&w=640&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F7DDE4Tm5qhv4q2XR9SOX4k%2F196f771d067ebe931cd044019906e86b%2Fmother-daughter-modern-house-hardie-plank-panel.jpg&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F7DDE4Tm5qhv4q2XR9SOX4k%2F196f771d067ebe931cd044019906e86b%2Fmother-daughter-modern-house-hardie-plank-panel.jpg&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/icons/menuMobile.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/icons/arrows-simple-right-green.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/icons/arrow-main-right-green.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/icons/iconline-remove.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6awisCbfAUbplqmZV1Rohg%2Fd3e813ba07b7f1ef9268d83f0508e855%2FStatement_Essentials_Broll.mp4.00_00_06_16.Still001.jpg&w=3840&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6awisCbfAUbplqmZV1Rohg%2Fd3e813ba07b7f1ef9268d83f0508e855%2FStatement_Essentials_Broll.mp4.00_00_06_16.Still001.jpg&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6awisCbfAUbplqmZV1Rohg%2Fd3e813ba07b7f1ef9268d83f0508e855%2FStatement_Essentials_Broll.mp4.00_00_06_16.Still001.jpg&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6awisCbfAUbplqmZV1Rohg%2Fd3e813ba07b7f1ef9268d83f0508e855%2FStatement_Essentials_Broll.mp4.00_00_06_16.Still001.jpg&w=750&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6awisCbfAUbplqmZV1Rohg%2Fd3e813ba07b7f1ef9268d83f0508e855%2FStatement_Essentials_Broll.mp4.00_00_06_16.Still001.jpg&w=828&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6awisCbfAUbplqmZV1Rohg%2Fd3e813ba07b7f1ef9268d83f0508e855%2FStatement_Essentials_Broll.mp4.00_00_06_16.Still001.jpg&w=1080&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6awisCbfAUbplqmZV1Rohg%2Fd3e813ba07b7f1ef9268d83f0508e855%2FStatement_Essentials_Broll.mp4.00_00_06_16.Still001.jpg&w=1200&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6awisCbfAUbplqmZV1Rohg%2Fd3e813ba07b7f1ef9268d83f0508e855%2FStatement_Essentials_Broll.mp4.00_00_06_16.Still001.jpg&w=1920&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6awisCbfAUbplqmZV1Rohg%2Fd3e813ba07b7f1ef9268d83f0508e855%2FStatement_Essentials_Broll.mp4.00_00_06_16.Still001.jpg&w=2048&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6awisCbfAUbplqmZV1Rohg%2Fd3e813ba07b7f1ef9268d83f0508e855%2FStatement_Essentials_Broll.mp4.00_00_06_16.Still001.jpg&w=3840&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=3840&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=16&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=32&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=48&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=64&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=96&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=128&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=256&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=750&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=828&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=1080&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=1200&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=1920&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=2048&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F2ocjKlG7vy8UB53zs4Zaj1%2Ff993ddf02001ee479b83c5fed54c3237%2Fdetail-hardie-plank-mountain-sage-bench.jpg&w=3840&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=3840&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=16&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=32&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=48&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=64&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=96&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=128&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=256&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=750&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=828&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=1080&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=1200&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=1920&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=2048&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3q2hIfr21duJI5bUwc1Ngm%2F9af0cbb5e793160408e0b1b7694f6b4f%2Fmodern-house-hardie-artisan-v-groove-white.jpg&w=3840&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=3840&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=16&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=32&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=48&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=64&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=96&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=128&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=256&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=750&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=828&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=1080&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=1200&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=1920&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=2048&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F1M5ZzoAC1epG3M79HFBYAf%2F68729a5b87d607dbbb2b667a824417aa%2FRS24872_RS24872_137_Baldwin_Ln__Georgetow_-_023_2-lpr.png&w=3840&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=3840&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=16&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=32&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=48&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=64&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=96&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=128&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=256&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=750&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=828&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=1080&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=1200&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=1920&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=2048&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4vr19whWkAKEowk6RLWPD7%2F48ef087fb9c2fc8595cb18050761a18d%2Fwindow-hardie-plank-grey-shadow-hardie-trim-arctic-white.jpg&w=3840&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=3840&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=16&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=32&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=48&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=64&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=96&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=128&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=256&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=750&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=828&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=1080&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=1200&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=1920&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=2048&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3CHbhEl1icDHfWgRVez8E6%2Fbe06ae0b854201fbc6593728d78c687c%2Fdetail-hardie-soffit-panel-arctic-white-hardie-plank-deep-ocean.jpg&w=3840&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4MMHgbcXBimA79QvputHxp%2F446e79c27e336c43d119761013bbd2e8%2FJBWestBlogThumbnail-1.jpg&w=3840&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4MMHgbcXBimA79QvputHxp%2F446e79c27e336c43d119761013bbd2e8%2FJBWestBlogThumbnail-1.jpg&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4MMHgbcXBimA79QvputHxp%2F446e79c27e336c43d119761013bbd2e8%2FJBWestBlogThumbnail-1.jpg&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4MMHgbcXBimA79QvputHxp%2F446e79c27e336c43d119761013bbd2e8%2FJBWestBlogThumbnail-1.jpg&w=750&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4MMHgbcXBimA79QvputHxp%2F446e79c27e336c43d119761013bbd2e8%2FJBWestBlogThumbnail-1.jpg&w=828&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4MMHgbcXBimA79QvputHxp%2F446e79c27e336c43d119761013bbd2e8%2FJBWestBlogThumbnail-1.jpg&w=1080&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4MMHgbcXBimA79QvputHxp%2F446e79c27e336c43d119761013bbd2e8%2FJBWestBlogThumbnail-1.jpg&w=1200&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4MMHgbcXBimA79QvputHxp%2F446e79c27e336c43d119761013bbd2e8%2FJBWestBlogThumbnail-1.jpg&w=1920&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4MMHgbcXBimA79QvputHxp%2F446e79c27e336c43d119761013bbd2e8%2FJBWestBlogThumbnail-1.jpg&w=2048&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4MMHgbcXBimA79QvputHxp%2F446e79c27e336c43d119761013bbd2e8%2FJBWestBlogThumbnail-1.jpg&w=3840&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6CpbOLCHwYGVqnCnVfVuJQ%2Feb9b476ebc3421e329dd75f5aa4c17db%2FDJI_20260804054140_0289_D-HDR_b.jpg&w=3840&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6CpbOLCHwYGVqnCnVfVuJQ%2Feb9b476ebc3421e329dd75f5aa4c17db%2FDJI_20260804054140_0289_D-HDR_b.jpg&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6CpbOLCHwYGVqnCnVfVuJQ%2Feb9b476ebc3421e329dd75f5aa4c17db%2FDJI_20260804054140_0289_D-HDR_b.jpg&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6CpbOLCHwYGVqnCnVfVuJQ%2Feb9b476ebc3421e329dd75f5aa4c17db%2FDJI_20260804054140_0289_D-HDR_b.jpg&w=750&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6CpbOLCHwYGVqnCnVfVuJQ%2Feb9b476ebc3421e329dd75f5aa4c17db%2FDJI_20260804054140_0289_D-HDR_b.jpg&w=828&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6CpbOLCHwYGVqnCnVfVuJQ%2Feb9b476ebc3421e329dd75f5aa4c17db%2FDJI_20260804054140_0289_D-HDR_b.jpg&w=1080&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6CpbOLCHwYGVqnCnVfVuJQ%2Feb9b476ebc3421e329dd75f5aa4c17db%2FDJI_20260804054140_0289_D-HDR_b.jpg&w=1200&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6CpbOLCHwYGVqnCnVfVuJQ%2Feb9b476ebc3421e329dd75f5aa4c17db%2FDJI_20260804054140_0289_D-HDR_b.jpg&w=1920&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6CpbOLCHwYGVqnCnVfVuJQ%2Feb9b476ebc3421e329dd75f5aa4c17db%2FDJI_20260804054140_0289_D-HDR_b.jpg&w=2048&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6CpbOLCHwYGVqnCnVfVuJQ%2Feb9b476ebc3421e329dd75f5aa4c17db%2FDJI_20260804054140_0289_D-HDR_b.jpg&w=3840&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4oXKazDG6fpcxH6n1czW7X%2F640dffd8c8781387c62d33e83fc0b22c%2FRS15631_G2015_IMG_6405.jpg&w=3840&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4oXKazDG6fpcxH6n1czW7X%2F640dffd8c8781387c62d33e83fc0b22c%2FRS15631_G2015_IMG_6405.jpg&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4oXKazDG6fpcxH6n1czW7X%2F640dffd8c8781387c62d33e83fc0b22c%2FRS15631_G2015_IMG_6405.jpg&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4oXKazDG6fpcxH6n1czW7X%2F640dffd8c8781387c62d33e83fc0b22c%2FRS15631_G2015_IMG_6405.jpg&w=750&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4oXKazDG6fpcxH6n1czW7X%2F640dffd8c8781387c62d33e83fc0b22c%2FRS15631_G2015_IMG_6405.jpg&w=828&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4oXKazDG6fpcxH6n1czW7X%2F640dffd8c8781387c62d33e83fc0b22c%2FRS15631_G2015_IMG_6405.jpg&w=1080&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4oXKazDG6fpcxH6n1czW7X%2F640dffd8c8781387c62d33e83fc0b22c%2FRS15631_G2015_IMG_6405.jpg&w=1200&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4oXKazDG6fpcxH6n1czW7X%2F640dffd8c8781387c62d33e83fc0b22c%2FRS15631_G2015_IMG_6405.jpg&w=1920&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4oXKazDG6fpcxH6n1czW7X%2F640dffd8c8781387c62d33e83fc0b22c%2FRS15631_G2015_IMG_6405.jpg&w=2048&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F4oXKazDG6fpcxH6n1czW7X%2F640dffd8c8781387c62d33e83fc0b22c%2FRS15631_G2015_IMG_6405.jpg&w=3840&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3dMJOvIUabDqr184SGkkL6%2Ff976eb019437c9ae9e5e8661fb31d88e%2Fman-installing-hardiebacker-cement-board-on-wall-with-drill-and-screws.jpg&w=3840&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3dMJOvIUabDqr184SGkkL6%2Ff976eb019437c9ae9e5e8661fb31d88e%2Fman-installing-hardiebacker-cement-board-on-wall-with-drill-and-screws.jpg&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3dMJOvIUabDqr184SGkkL6%2Ff976eb019437c9ae9e5e8661fb31d88e%2Fman-installing-hardiebacker-cement-board-on-wall-with-drill-and-screws.jpg&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3dMJOvIUabDqr184SGkkL6%2Ff976eb019437c9ae9e5e8661fb31d88e%2Fman-installing-hardiebacker-cement-board-on-wall-with-drill-and-screws.jpg&w=750&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3dMJOvIUabDqr184SGkkL6%2Ff976eb019437c9ae9e5e8661fb31d88e%2Fman-installing-hardiebacker-cement-board-on-wall-with-drill-and-screws.jpg&w=828&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3dMJOvIUabDqr184SGkkL6%2Ff976eb019437c9ae9e5e8661fb31d88e%2Fman-installing-hardiebacker-cement-board-on-wall-with-drill-and-screws.jpg&w=1080&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3dMJOvIUabDqr184SGkkL6%2Ff976eb019437c9ae9e5e8661fb31d88e%2Fman-installing-hardiebacker-cement-board-on-wall-with-drill-and-screws.jpg&w=1200&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3dMJOvIUabDqr184SGkkL6%2Ff976eb019437c9ae9e5e8661fb31d88e%2Fman-installing-hardiebacker-cement-board-on-wall-with-drill-and-screws.jpg&w=1920&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3dMJOvIUabDqr184SGkkL6%2Ff976eb019437c9ae9e5e8661fb31d88e%2Fman-installing-hardiebacker-cement-board-on-wall-with-drill-and-screws.jpg&w=2048&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F3dMJOvIUabDqr184SGkkL6%2Ff976eb019437c9ae9e5e8661fb31d88e%2Fman-installing-hardiebacker-cement-board-on-wall-with-drill-and-screws.jpg&w=3840&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6KJFkUTn4OD2wKjBXGNg8N%2Fbc1cb6556db30c0a24c7c9ddc8ec01bc%2Fcontractor-installing-hardiebacker-cement-board-on-floor.jpg&w=3840&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6KJFkUTn4OD2wKjBXGNg8N%2Fbc1cb6556db30c0a24c7c9ddc8ec01bc%2Fcontractor-installing-hardiebacker-cement-board-on-floor.jpg&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6KJFkUTn4OD2wKjBXGNg8N%2Fbc1cb6556db30c0a24c7c9ddc8ec01bc%2Fcontractor-installing-hardiebacker-cement-board-on-floor.jpg&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6KJFkUTn4OD2wKjBXGNg8N%2Fbc1cb6556db30c0a24c7c9ddc8ec01bc%2Fcontractor-installing-hardiebacker-cement-board-on-floor.jpg&w=750&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6KJFkUTn4OD2wKjBXGNg8N%2Fbc1cb6556db30c0a24c7c9ddc8ec01bc%2Fcontractor-installing-hardiebacker-cement-board-on-floor.jpg&w=828&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6KJFkUTn4OD2wKjBXGNg8N%2Fbc1cb6556db30c0a24c7c9ddc8ec01bc%2Fcontractor-installing-hardiebacker-cement-board-on-floor.jpg&w=1080&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6KJFkUTn4OD2wKjBXGNg8N%2Fbc1cb6556db30c0a24c7c9ddc8ec01bc%2Fcontractor-installing-hardiebacker-cement-board-on-floor.jpg&w=1200&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6KJFkUTn4OD2wKjBXGNg8N%2Fbc1cb6556db30c0a24c7c9ddc8ec01bc%2Fcontractor-installing-hardiebacker-cement-board-on-floor.jpg&w=1920&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6KJFkUTn4OD2wKjBXGNg8N%2Fbc1cb6556db30c0a24c7c9ddc8ec01bc%2Fcontractor-installing-hardiebacker-cement-board-on-floor.jpg&w=2048&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F6KJFkUTn4OD2wKjBXGNg8N%2Fbc1cb6556db30c0a24c7c9ddc8ec01bc%2Fcontractor-installing-hardiebacker-cement-board-on-floor.jpg&w=3840&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F33DOn0WyQtu9kbo0ihhTIv%2F636c1c82bc0025a4c892187bf11a068d%2FRS28660_3-Homeowner_0905_StaticRFS__1_.png&w=3840&q=75",
+      "type": "img"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F33DOn0WyQtu9kbo0ihhTIv%2F636c1c82bc0025a4c892187bf11a068d%2FRS28660_3-Homeowner_0905_StaticRFS__1_.png&w=384&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F33DOn0WyQtu9kbo0ihhTIv%2F636c1c82bc0025a4c892187bf11a068d%2FRS28660_3-Homeowner_0905_StaticRFS__1_.png&w=640&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F33DOn0WyQtu9kbo0ihhTIv%2F636c1c82bc0025a4c892187bf11a068d%2FRS28660_3-Homeowner_0905_StaticRFS__1_.png&w=750&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F33DOn0WyQtu9kbo0ihhTIv%2F636c1c82bc0025a4c892187bf11a068d%2FRS28660_3-Homeowner_0905_StaticRFS__1_.png&w=828&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F33DOn0WyQtu9kbo0ihhTIv%2F636c1c82bc0025a4c892187bf11a068d%2FRS28660_3-Homeowner_0905_StaticRFS__1_.png&w=1080&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F33DOn0WyQtu9kbo0ihhTIv%2F636c1c82bc0025a4c892187bf11a068d%2FRS28660_3-Homeowner_0905_StaticRFS__1_.png&w=1200&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F33DOn0WyQtu9kbo0ihhTIv%2F636c1c82bc0025a4c892187bf11a068d%2FRS28660_3-Homeowner_0905_StaticRFS__1_.png&w=1920&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F33DOn0WyQtu9kbo0ihhTIv%2F636c1c82bc0025a4c892187bf11a068d%2FRS28660_3-Homeowner_0905_StaticRFS__1_.png&w=2048&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://www.jameshardie.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fdzi2asncd44t%2F33DOn0WyQtu9kbo0ihhTIv%2F636c1c82bc0025a4c892187bf11a068d%2FRS28660_3-Homeowner_0905_StaticRFS__1_.png&w=3840&q=75",
+      "type": "srcset"
+    },
+    {
+      "url": "https://images.ctfassets.net/dzi2asncd44t/6eXXRjNjOVpLbm0aCPNIHO/cedae4f4b2327942d757a564cbf9b15d/james-hardie-footer-logo.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://arttrk.com/pixel/?ad_log=referer&action=misc&pixid=7aad7587-e237-4f4f-8014-d83b1e71e48c",
+      "type": "img"
+    },
+    {
+      "url": "https://tags.w55c.net/rs?id=ed30bd9dadca4f92ae329367555c4475&t=homepage",
+      "type": "img"
+    },
+    {
+      "url": "https://api.abcsinsights.com/v2/wt?aid=d7e0ddf5-51f7-492a-4925-08d8c3c0f918&cid=9b647bd0-c8df-426e-ab0e-675537edbd3a&cid=JamesHardie2024&url=[URL]&page=[PAGE]&c1=&c2=&c3=&c4=&cb=[CACHEBUSTER]",
+      "type": "img"
+    },
+    {
+      "url": "https://bat.bing.com/action/0?ti=97252431&Ver=2&mid=66561a15-4ca7-4c07-88af-157c6284335a&bo=1&sid=dbf1c240ded911f1b62d13248f7a37c7&vid=dbf756d0ded911f1a3506920f7abd0c2&vids=1&msclkid=N&uach=pv%3D10.0&pi=1200101525&lg=en-US&sw=2560&sh=1440&sc=24&tl=House%20Siding%20%26%20Backer%20Board%20%7C%20James%20Hardie&kw=House%20Siding%20%26%20Backer%20Board%20%7C%20James%20Hardie&p=https%3A%2F%2Fwww.jameshardie.com%2F&r=&lt=489&evt=pageLoad&sv=2&cdb=AQAQ&rn=810133",
+      "type": "img"
+    },
+    {
+      "url": "https://segment.prod.bidr.io/associate-segment?buzz_key=tatari&segment_key=tatari-15728&value=&uncacheplz=1639887722",
+      "type": "img"
+    },
+    {
+      "url": "https://thumb.sprinklr.com/?d=640x640&url=https%3A%2F%2Fsprcdn-assets.sprinklr.com%2F3391%2F096467bb-7126-4c9f-a529-ffcb81128b74-681962739%2Fhttps___prod-media-proxy.sprin.jpg",
+      "type": "background"
+    },
+    {
+      "url": "https://thumb.sprinklr.com/?d=640x640&url=https%3A%2F%2Fsprcdn-assets.sprinklr.com%2F3391%2F2d24f665-bc75-456f-8ef9-c24b17b86458-2027710955%2Fconverted-image-1762908759647.png",
+      "type": "background"
+    },
+    {
+      "url": "https://thumb.sprinklr.com/?d=640x640&url=https%3A%2F%2Fsprcdn-assets.sprinklr.com%2F3391%2Fb177b143-53e9-41cc-bd01-2888a3005008-1573530722%2Fconverted-image-1760722179084.png",
+      "type": "background"
+    },
+    {
+      "url": "https://thumb.sprinklr.com/?d=640x640&url=https%3A%2F%2Fsprcdn-assets.sprinklr.com%2F3391%2F32f3fcb3-cedf-4d3a-af2a-ce956b9014c5-431054042%2Fconverted-image-1760115676338.png",
+      "type": "background"
+    },
+    {
+      "url": "https://thumb.sprinklr.com/?d=640x640&url=https%3A%2F%2Fsprcdn-assets.sprinklr.com%2F3391%2Faba149fd-eca5-4c12-b759-6aa244f1de89-1074852047%2Fhttps___scontent-iad3-1.cdnins.jpg",
+      "type": "background"
+    },
+    {
+      "url": "https://thumb.sprinklr.com/?d=640x640&url=https%3A%2F%2Fsprcdn-assets.sprinklr.com%2F3391%2F52ad6cd0-20b5-484e-bb29-f645bd819405-371683381%2Fconverted-image-1759420794034.png",
+      "type": "background"
+    },
+    {
+      "url": "https://thumb.sprinklr.com/?d=640x640&url=https%3A%2F%2Fsprcdn-assets.sprinklr.com%2F3391%2F0b4598b5-18e3-4c93-8dd2-496981b90aba-2087749240%2Fhttps___scontent-iad3-1.cdnins.jpg",
+      "type": "background"
+    },
+    {
+      "url": "https://thumb.sprinklr.com/?d=640x640&url=https%3A%2F%2Fsprcdn-assets.sprinklr.com%2F3391%2F6f1daf28-c54e-415b-a80d-016af6620a6a-818630056%2Fconverted-image-1760107779160.png",
+      "type": "background"
+    },
+    {
+      "url": "https://thumb.sprinklr.com/?d=640x640&url=https%3A%2F%2Fsprcdn-assets.sprinklr.com%2F3391%2Fe94076c2-2065-4374-875a-3c080426cd49-1636197226%2Fconverted-image-1759850514061.png",
+      "type": "background"
+    },
+    {
+      "url": "https://thumb.sprinklr.com/?d=640x640&url=https%3A%2F%2Fsprcdn-assets.sprinklr.com%2F3391%2Fb4c0bafb-a927-46b7-8d50-85b2f3018cd8-519818767%2Fconverted-image-1759891208359.png",
+      "type": "background"
+    }
+  ],
+  "skeleton": {
+    "signature": "2x3(2x1B(2x1,2x1),s(3x1(s,s,s),s(2x1,s(5x1,2x1),s),s(2x1,s(5x1,2x1),s),s(sB,sB),s,s(4x1,s(2x1,s)),sB(2x1,s,s(s,5x2,s)),sB(2x1,s(6x1,2x1)),sB,sB),sB(2x1,s))",
+    "nodeMap": {
+      "r": "body",
+      "rc1": "#announcementBanner",
+      "rc1c1": "#announcementBanner > div.w-full.max-w-screen-1440p.mx-auto.flex.flex-col.lg\\:flex-row.lg\\:justify-center.lg\\:items-center.flex-wrap.gap-2.relative > div.w-10\\/12.lg\\:w-auto.lg\\:pr-\\[2rem\\] > div.flex.flex-col.gap-3",
+      "rc1c2": "#announcementBanner > div.w-full.max-w-screen-1440p.mx-auto.flex.flex-col.lg\\:flex-row.lg\\:justify-center.lg\\:items-center.flex-wrap.gap-2.relative > div.w-10\\/12.lg\\:w-auto.lg\\:pr-\\[2rem\\] > div.block.underline.mt-3",
+      "rc2": "#main-content",
+      "rc2c1": "#main-content > div.hero-video-overlay.max-w-screen-1440p.mx-auto.relative.w-full.h-\\[37\\.5rem\\].lg\\:h-\\[44\\.375rem\\]",
+      "rc2c1c1": "#main-content > div.hero-video-overlay.max-w-screen-1440p.mx-auto.relative.w-full.h-\\[37\\.5rem\\].lg\\:h-\\[44\\.375rem\\] > div.hero-cover.absolute.inset-0.w-full.h-full.z-0",
+      "rc2c1c2": "#main-content > div.hero-video-overlay.max-w-screen-1440p.mx-auto.relative.w-full.h-\\[37\\.5rem\\].lg\\:h-\\[44\\.375rem\\] > div.relative.w-full.h-full.aspect-video",
+      "rc2c1c3": "#main-content > div.hero-video-overlay.max-w-screen-1440p.mx-auto.relative.w-full.h-\\[37\\.5rem\\].lg\\:h-\\[44\\.375rem\\] > div.absolute.inset-0.z-10.lg\\:w-7\\/12.h-full.flex.flex-col.lg\\:justify-center.pt-16.lg\\:pt-0.pb-6.lg\\:pb-8.px-4.lg\\:px-20",
+      "rc2c2": "#main-content > div.mx-auto.relative.w-full.h-auto.max-w-screen-1440p.slim.\\[\\&\\>div\\:first-of-type\\]\\:hidden",
+      "rc2c2c1": "#main-content > div.mx-auto.relative.w-full.h-auto.max-w-screen-1440p.slim.\\[\\&\\>div\\:first-of-type\\]\\:hidden > div.relative.py-10.lg\\:py-12 > div.inner-container.flex.flex-col.lg\\:flex-row.items-start.lg\\:items-stretch.pb-6.lg\\:pb-8",
+      "rc2c2c2": "#splide01",
+      "rc2c2c2c1": "#splide01-track",
+      "rc2c2c2c2": "#splide01 > div.px-4.lg\\:px-20.\\[\\&_\\.splide\\\\_\\\\_arrows\\]\\:lg\\:\\!w-9\\/12.\\[\\&_\\.splide\\\\_\\\\_progress.lg\\:\\!w-3\\/12\\]\\:",
+      "rc2c2c3": "#main-content > div.mx-auto.relative.w-full.h-auto.max-w-screen-1440p.slim.\\[\\&\\>div\\:first-of-type\\]\\:hidden > div.relative.py-10.lg\\:py-12 > div.inner-container.flex-col.lg\\:flex-row.flex.items-start:nth-of-type(3)",
+      "rc2c3": "#main-content > div.max-w-screen-1440p.mx-auto.my-10.lg\\:my-12",
+      "rc2c3c1": "#main-content > div.max-w-screen-1440p.mx-auto.my-10.lg\\:my-12 > div.w-full.block.lg\\:flex.lg\\:items-center.lg\\:justify-between.mb-6.lg\\:mb-8.px-4.lg\\:px-20",
+      "rc2c3c2": "#splide02",
+      "rc2c3c2c1": "#splide02-track",
+      "rc2c3c2c2": "#splide02 > div.px-4.lg\\:px-20.\\[\\&_\\.splide\\\\_\\\\_arrows\\]\\:lg\\:\\!w-9\\/12.\\[\\&_\\.splide\\\\_\\\\_progress.lg\\:\\!w-3\\/12\\]\\:",
+      "rc2c3c3": "#main-content > div.max-w-screen-1440p.mx-auto.my-10.lg\\:my-12 > div.px-4.lg\\:px-0",
+      "rc2c4": "#main-content > div.base-container-background.bg-transparent.lg\\:pt-20.lg\\:pb-20.lg\\:px-20.pt-10.pb-10",
+      "rc2c4c1": "#hover-website-embed-iframe",
+      "rc2c4c2": "#hover-website-embed-footer",
+      "rc2c5": "#main-content > div.w-full.flex.flex-col.items-center.bg-transparent",
+      "rc2c6": "#main-content > div.w-full.max-w-screen-1440p.m-auto.flex.flex-col",
+      "rc2c6c1": "#main-content > div.w-full.max-w-screen-1440p.m-auto.flex.flex-col > div.w-full.mx-auto.flex.flex-col.justify-center:nth-of-type(2) > div.relative.w-full.flex.overflow-x-scroll.justify-start.md\\:justify-center.px-9.md\\:px-0.py-6.no-scrollbar.snap-x.scroll-smooth",
+      "rc2c6c2": "#main-content > div.w-full.max-w-screen-1440p.m-auto.flex.flex-col > div.w-full.mx-auto.flex.flex-col.justify-center:nth-of-type(2) > div.flex.flex-col",
+      "rc2c6c2c1": "#main-content > div.w-full.max-w-screen-1440p.m-auto.flex.flex-col > div.w-full.mx-auto.flex.flex-col.justify-center:nth-of-type(2) > div.flex.flex-col > div.textImageItem.w-full.flex.flex-col.lg\\:flex-row.gap-6.items-center.justify-between.inner-container.my-16",
+      "rc2c6c2c2": "#main-content > div.w-full.max-w-screen-1440p.m-auto.flex.flex-col > div.w-full.mx-auto.flex.flex-col.justify-center:nth-of-type(2) > div.flex.flex-col > div.flex.flex-1.flex-col.justify-between.\\[\\&\\>div\\]\\:mt-0",
+      "rc2c7": "#main-content > div.w-full:nth-of-type(8)",
+      "rc2c7c1": "#main-content > div.w-full:nth-of-type(8) > div.inner-container.py-10.lg\\:py-12 > div.w-full.block.lg\\:flex.lg\\:items-center.lg\\:justify-between.pb-8.lg\\:pb-10",
+      "rc2c7c2": "#sprinklr-embed-control-24392-ZW1iZWQ6NjYwYTg5MTU2NGZiMGI1NTEzMzI4OGEw",
+      "rc2c7c3": "#sprinklr-embed-24392-ZW1iZWQ6NjYwYTg5MTU2NGZiMGI1NTEzMzI4OGEw",
+      "rc2c7c3c1": "#sprinklr-embed-24392-ZW1iZWQ6NjYwYTg5MTU2NGZiMGI1NTEzMzI4OGEw > div.swe_profile_header",
+      "rc2c7c3c2": "#sprinklr-embed-24392-ZW1iZWQ6NjYwYTg5MTU2NGZiMGI1NTEzMzI4OGEw > div.swe_posts_container",
+      "rc2c7c3c3": "#sprinklr-embed-24392-ZW1iZWQ6NjYwYTg5MTU2NGZiMGI1NTEzMzI4OGEw > div.swe_load_more",
+      "rc2c8": "#main-content > div.w-full:nth-of-type(9)",
+      "rc2c8c1": "#main-content > div.w-full:nth-of-type(9) > div.max-w-screen-1440p.m-auto.pt-10.pb-12.lg\\:py-16 > div.w-full.block.lg\\:flex.lg\\:items-center.lg\\:justify-between.pb-8.px-4.lg\\:px-20",
+      "rc2c8c2": "#splide03",
+      "rc2c8c2c1": "#splide03-track",
+      "rc2c8c2c2": "#splide03 > div.px-4.lg\\:px-20.\\[\\&_\\.splide\\\\_\\\\_arrows\\]\\:lg\\:\\!w-9\\/12.\\[\\&_\\.splide\\\\_\\\\_progress.lg\\:\\!w-3\\/12\\]\\:",
+      "rc2c9": "#main-content > div.bg-neutral-color-high:nth-of-type(10)",
+      "rc2c10": "#main-content > div.bg-neutral-color-high:nth-of-type(11)",
+      "rc3": "#__next > div.mx-auto.w-full.__variable_57c0d3 > div.bg-neutral-color-high",
+      "rc3c1": "#__next > div.mx-auto.w-full.__variable_57c0d3 > div.bg-neutral-color-high > div.max-w-screen-1440p.mx-auto.pb-10.pt-10.lg\\:pt-16.px-4.xl\\:px-20 > div.flex.flex-col.lg\\:grid.lg\\:grid-cols-12.lg\\:gap-6",
+      "rc3c2": "#__next > div.mx-auto.w-full.__variable_57c0d3 > div.bg-neutral-color-high > div.max-w-screen-1440p.mx-auto.pb-10.pt-10.lg\\:pt-16.px-4.xl\\:px-20 > div.pb-6.lg\\:pb-8.pt-10.lg\\:pt-16.block"
+    },
+    "sections": [
+      {
+        "id": "rc1",
+        "selector": "#announcementBanner",
+        "layout": "2x1",
+        "hasBg": true,
+        "hint": "block",
+        "background": "#163c20",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "#announcementBanner"
+      },
+      {
+        "id": "rc2",
+        "selector": "#main-content > div.hero-video-overlay.max-w-screen-1440p.mx-auto.relative.w-full.h-\\[37\\.5rem\\].lg\\:h-\\[44\\.375rem\\]",
+        "layout": "3x1",
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc3",
+        "selector": "#main-content > div.mx-auto.relative.w-full.h-auto.max-w-screen-1440p.slim.\\[\\&\\>div\\:first-of-type\\]\\:hidden",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc4",
+        "selector": "#main-content > div.max-w-screen-1440p.mx-auto.my-10.lg\\:my-12",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc5",
+        "selector": "#main-content > div.base-container-background.bg-transparent.lg\\:pt-20.lg\\:pb-20.lg\\:px-20.pt-10.pb-10",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc6",
+        "selector": "#main-content > div.w-full.flex.flex-col.items-center.bg-transparent",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc7",
+        "selector": "#main-content > div.w-full.max-w-screen-1440p.m-auto.flex.flex-col",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc8",
+        "selector": "#main-content > div.w-full:nth-of-type(8)",
+        "layout": null,
+        "hasBg": true,
+        "hint": "block",
+        "background": "#f6f5f3",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "#main-content > div.w-full:nth-of-type(8)"
+      },
+      {
+        "id": "rc9",
+        "selector": "#main-content > div.w-full:nth-of-type(9)",
+        "layout": null,
+        "hasBg": true,
+        "hint": "block",
+        "background": "#d4ccc4",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "#main-content > div.w-full:nth-of-type(9)"
+      },
+      {
+        "id": "rc10",
+        "selector": "#main-content > div.bg-neutral-color-high:nth-of-type(10)",
+        "layout": null,
+        "hasBg": true,
+        "hint": "default-content",
+        "background": "#333333",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "#main-content > div.bg-neutral-color-high:nth-of-type(10)"
+      },
+      {
+        "id": "rc11",
+        "selector": "#main-content > div.bg-neutral-color-high:nth-of-type(11)",
+        "layout": null,
+        "hasBg": true,
+        "hint": "default-content",
+        "background": "#333333",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "#main-content > div.bg-neutral-color-high:nth-of-type(11)"
+      },
+      {
+        "id": "rc12",
+        "selector": "#__next > div.mx-auto.w-full.__variable_57c0d3 > div.bg-neutral-color-high",
+        "layout": null,
+        "hasBg": true,
+        "hint": "block",
+        "background": "#333333",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "#__next > div.mx-auto.w-full.__variable_57c0d3 > div.bg-neutral-color-high"
+      }
+    ],
+    "invalidIgnore": []
+  },
+  "pageLayout": {
+    "box": {
+      "y": 208.375,
+      "height": 5509
+    },
+    "splits": [],
+    "start": {
+      "kind": "text on photo"
+    }
+  },
+  "blocks": [
+    {
+      "id": "d0e04bf08cfd",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "#announcementBanner",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 80
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "text + link + button"
+      },
+      "description": "false",
+      "features": {
+        "skeleton": "[(T [T|svg])|button]",
+        "variant": "[(Tw [Tw|svg])|button]",
+        "variantClean": "[(Tk [Tk|svg])|button]"
+      },
+      "screenshot": "blocks/d0e04bf08cfd.jpg",
+      "html": "blocks/d0e04bf08cfd.html"
+    },
+    {
+      "id": "90715bac56ef",
+      "type": "unknown",
+      "detectionTier": 1,
+      "selector": "#main-content > div.hero-video-overlay.max-w-screen-1440p.mx-auto.relative.w-full.h-\\[37\\.5rem\\].lg\\:h-\\[44\\.375rem\\]",
+      "bounds": {
+        "x": 0,
+        "y": 208,
+        "width": 1440,
+        "height": 710
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "image + video + button + heading + link"
+      },
+      "description": "hero-video-overlay",
+      "features": {
+        "skeleton": "~@({{video button} T})",
+        "variant": "~@({{video button} Tw})",
+        "variantClean": "~@({{video button} Tw})"
+      },
+      "screenshot": "blocks/90715bac56ef.jpg",
+      "html": "blocks/90715bac56ef.html"
+    },
+    {
+      "id": "3a83416f23fd",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "#main-content > div.mx-auto.relative.w-full.h-auto.max-w-screen-1440p.slim.\\[\\&\\>div\\:first-of-type\\]\\:hidden > div.relative.py-10.lg\\:py-12 > div.inner-container.flex.flex-col.lg\\:flex-row.items-start.lg\\:items-stretch.pb-6.lg\\:pb-8",
+      "bounds": {
+        "x": 0,
+        "y": 966,
+        "width": 1440,
+        "height": 166
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + link"
+      },
+      "description": "inner-container",
+      "features": {
+        "skeleton": "[T*2|(T ~([T|svg]))]",
+        "variant": "[Tk*2|(Tk ~g([Tw|svg]))]",
+        "variantClean": "[Tk*2|(Tk ~g([Tw|svg]))]"
+      },
+      "screenshot": "blocks/3a83416f23fd.jpg",
+      "html": "blocks/3a83416f23fd.html"
+    },
+    {
+      "id": "24b70b9ce85c",
+      "type": "carousel",
+      "detectionTier": 1,
+      "selector": "#splide01",
+      "bounds": {
+        "x": 0,
+        "y": 1132,
+        "width": 1440,
+        "height": 580
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "dense",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "list + image + button + heading + text + link"
+      },
+      "description": "splide",
+      "features": {
+        "skeleton": "([{tab button T}|{tab button}] [[button]|~*1.25])",
+        "variant": "([{tab button~k Tbkn}|{tab button~k}] [[button~w|button~g]|~g*1.25])",
+        "variantClean": "([{tab button~k Tk}|{tab button~k}] [[button~w|button~g]|~g*1.25])"
+      },
+      "screenshot": "blocks/24b70b9ce85c.jpg",
+      "html": "blocks/24b70b9ce85c.html"
+    },
+    {
+      "id": "ed9f758fb745",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "#main-content > div.max-w-screen-1440p.mx-auto.my-10.lg\\:my-12 > div.w-full.block.lg\\:flex.lg\\:items-center.lg\\:justify-between.mb-6.lg\\:mb-8.px-4.lg\\:px-20",
+      "bounds": {
+        "x": 0,
+        "y": 1808,
+        "width": 1440,
+        "height": 46
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + link"
+      },
+      "description": "w-full",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tk]",
+        "variantClean": "[Tk]"
+      },
+      "screenshot": "blocks/ed9f758fb745.jpg",
+      "html": "blocks/ed9f758fb745.html"
+    },
+    {
+      "id": "9d3fb134513d",
+      "type": "carousel",
+      "detectionTier": 1,
+      "selector": "#splide02",
+      "bounds": {
+        "x": 0,
+        "y": 1886,
+        "width": 1440,
+        "height": 615
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "list + video + heading + button"
+      },
+      "description": "splide",
+      "features": {
+        "skeleton": "([{{video svg} T}] [[button]|~*1.25])",
+        "variant": "([{{video svg} Tw}] [[button~w|button~g]|~g*1.25])",
+        "variantClean": "([{{video svg} Tw}] [[button~w|button~g]|~g*1.25])"
+      },
+      "screenshot": "blocks/9d3fb134513d.jpg",
+      "html": "blocks/9d3fb134513d.html"
+    },
+    {
+      "id": "a7e40b4d1c8c",
+      "type": "unknown",
+      "detectionTier": 1,
+      "selector": "#hover-website-embed-iframe",
+      "bounds": {
+        "x": 80,
+        "y": 2629,
+        "width": 1280,
+        "height": 800
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "video"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "iframe",
+        "variant": "iframe~r",
+        "variantClean": "iframe~r"
+      },
+      "screenshot": "blocks/a7e40b4d1c8c.jpg",
+      "html": "blocks/a7e40b4d1c8c.html"
+    },
+    {
+      "id": "810a1c3c89d2",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "#hover-website-embed-footer",
+      "bounds": {
+        "x": 80,
+        "y": 3429,
+        "width": 1280,
+        "height": 56
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "",
+      "features": {
+        "skeleton": "svg",
+        "variant": "svg",
+        "variantClean": "svg"
+      },
+      "screenshot": "blocks/810a1c3c89d2.jpg",
+      "html": "blocks/810a1c3c89d2.html"
+    },
+    {
+      "id": "f8243a6e9e03",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#main-content > div.w-full.flex.flex-col.items-center.bg-transparent > div > div > div > div",
+      "bounds": {
+        "x": 310,
+        "y": 3565,
+        "width": 821,
+        "height": 50
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading"
+      },
+      "description": "flex",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tk",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/f8243a6e9e03.html"
+    },
+    {
+      "id": "e386ffe9488f",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#main-content > div.w-full.flex.flex-col.items-center.bg-transparent > div > div > div > p",
+      "bounds": {
+        "x": 336,
+        "y": 3623,
+        "width": 768,
+        "height": 28
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "w-full",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tn",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/e386ffe9488f.html"
+    },
+    {
+      "id": "dd4d72481f54",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "#main-content > div.w-full.max-w-screen-1440p.m-auto.flex.flex-col > div:nth-child(2) > div.relative.w-full.flex.overflow-x-scroll.justify-start.md\\:justify-center.px-9.md\\:px-0.py-6.no-scrollbar.snap-x.scroll-smooth",
+      "bounds": {
+        "x": 0,
+        "y": 3651,
+        "width": 1440,
+        "height": 86
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "button"
+      },
+      "description": "relative",
+      "features": {
+        "skeleton": "[button]",
+        "variant": "[button]",
+        "variantClean": "[button]"
+      },
+      "screenshot": "blocks/dd4d72481f54.jpg",
+      "html": "blocks/dd4d72481f54.html"
+    },
+    {
+      "id": "c40c65da6d26",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "#main-content > div.w-full.max-w-screen-1440p.m-auto.flex.flex-col > div:nth-child(2) > div.flex.flex-col",
+      "bounds": {
+        "x": 0,
+        "y": 3737,
+        "width": 1440,
+        "height": 488
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading + link + video + button"
+      },
+      "description": "flex",
+      "features": {
+        "skeleton": "[T|{video button}*1.25]",
+        "variant": "[Tbkn|{video button}*1.25]",
+        "variantClean": "[Tk|{video button}*1.25]"
+      },
+      "screenshot": "blocks/c40c65da6d26.jpg",
+      "html": "blocks/c40c65da6d26.html"
+    },
+    {
+      "id": "393c64eb3237",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "#main-content > div:nth-child(8) > div > div.w-full.block.lg\\:flex.lg\\:items-center.lg\\:justify-between.pb-8.lg\\:pb-10",
+      "bounds": {
+        "x": 80,
+        "y": 4273,
+        "width": 1280,
+        "height": 90
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + link"
+      },
+      "description": "w-full",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tk|Tb]",
+        "variantClean": "[Tk]"
+      },
+      "screenshot": "blocks/393c64eb3237.jpg",
+      "html": "blocks/393c64eb3237.html"
+    },
+    {
+      "id": "2d41a8dfdc21",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "#sprinklr-embed-24392-ZW1iZWQ6NjYwYTg5MTU2NGZiMGI1NTEzMzI4OGEw > div.swe_posts_container",
+      "bounds": {
+        "x": 80,
+        "y": 4363,
+        "width": 1280,
+        "height": 512
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "link"
+      },
+      "description": "swe-posts-container",
+      "features": {
+        "skeleton": "[~(T)]",
+        "variant": "[~k(Tw)]",
+        "variantClean": "[~k(Tw)]",
+        "set": true
+      },
+      "screenshot": "blocks/2d41a8dfdc21.jpg",
+      "html": "blocks/2d41a8dfdc21.html"
+    },
+    {
+      "id": "7927aaf9854f",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "#sprinklr-embed-24392-ZW1iZWQ6NjYwYTg5MTU2NGZiMGI1NTEzMzI4OGEw > div.swe_load_more",
+      "bounds": {
+        "x": 80,
+        "y": 4875,
+        "width": 1280,
+        "height": 80
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "link"
+      },
+      "description": "swe-load-more",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tw",
+        "variantClean": "Tw"
+      },
+      "screenshot": "blocks/7927aaf9854f.jpg",
+      "html": "blocks/7927aaf9854f.html"
+    },
+    {
+      "id": "8e50f0722070",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "#main-content > div:nth-child(9) > div > div.w-full.block.lg\\:flex.lg\\:items-center.lg\\:justify-between.pb-8.px-4.lg\\:px-20",
+      "bounds": {
+        "x": 0,
+        "y": 5067,
+        "width": 1440,
+        "height": 78
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + link"
+      },
+      "description": "w-full",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tk|Tb]",
+        "variantClean": "[Tk]"
+      },
+      "screenshot": "blocks/8e50f0722070.jpg",
+      "html": "blocks/8e50f0722070.html"
+    },
+    {
+      "id": "6beba7aa7156",
+      "type": "carousel",
+      "detectionTier": 1,
+      "selector": "#splide03",
+      "bounds": {
+        "x": 0,
+        "y": 5145,
+        "width": 1440,
+        "height": 444
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "list + link + image + heading + button"
+      },
+      "description": "splide",
+      "features": {
+        "skeleton": "([~(T [T|svg] T)|~(T)] [[button]|~*1.25])",
+        "variant": "([~w(T [Tk|svg] Tk)|~w(Tk)] [[button~w|button~g]|~g*1.25])",
+        "variantClean": "([~w(T [Tk|svg] Tk)|~w(Tk)] [[button~w|button~g]|~g*1.25])"
+      },
+      "screenshot": "blocks/6beba7aa7156.jpg",
+      "html": "blocks/6beba7aa7156.html"
+    },
+    {
+      "id": "f68e5eda3624",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#main-content > div:nth-child(10)",
+      "bounds": {
+        "x": 0,
+        "y": 5653,
+        "width": 1440,
+        "height": 32
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": ""
+      },
+      "description": "bg-neutral-color-high",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tw",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/f68e5eda3624.html"
+    },
+    {
+      "id": "7edcc4dafa34",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#main-content > div:nth-child(11)",
+      "bounds": {
+        "x": 0,
+        "y": 5685,
+        "width": 1440,
+        "height": 32
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": ""
+      },
+      "description": "bg-neutral-color-high",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tw",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/7edcc4dafa34.html"
+    },
+    {
+      "id": "ccaddbcb6cec",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "#__next > div > div.bg-neutral-color-high > div > div.flex.flex-col.lg\\:grid.lg\\:grid-cols-12.lg\\:gap-6",
+      "bounds": {
+        "x": 80,
+        "y": 5781,
+        "width": 1280,
+        "height": 416
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "list + link"
+      },
+      "description": "flex",
+      "features": {
+        "skeleton": "[(T [[svg|T]|[T]|[svg|T]|[T]|[svg|T]] [T])|[T]*2]",
+        "variant": "[(Tw [[svg|Tw]|[Tw]|[svg|Tw]|[Tw]|[svg|Tw]] [Tw])|[Tw]*2]",
+        "variantClean": "[(Tk [[svg|Tk]|[Tk]|[svg|Tk]|[Tk]|[svg|Tk]] [Tk])|[Tk]*2]"
+      },
+      "screenshot": "blocks/ccaddbcb6cec.jpg",
+      "html": "blocks/ccaddbcb6cec.html"
+    },
+    {
+      "id": "15d8fd431921",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#__next > div > div.bg-neutral-color-high > div > div.pb-6.lg\\:pb-8.pt-10.lg\\:pt-16.block",
+      "bounds": {
+        "x": 80,
+        "y": 6197,
+        "width": 1280,
+        "height": 144
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "large",
+        "hasGrid": false,
+        "structure": "link + image"
+      },
+      "description": "pb-6",
+      "features": {
+        "skeleton": "T",
+        "variant": "T",
+        "variantClean": "T"
+      },
+      "screenshot": null,
+      "html": "blocks/15d8fd431921.html"
+    }
+  ],
+  "globalElements": {
+    "header": {
+      "selector": "header.globalHeader.flex"
+    },
+    "footer": {
+      "selector": "#__next > div:nth-child(1) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3)"
+    },
+    "isFirstCapture": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variantName": "carousel-video",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Slider of tall 9:16 video poster cards (about 3.5 visible) with play icon and white title overlay at the bottom; click opens a fullscreen video modal; prev/next arrows and progress bar; swipe/drag.",
+  "contentPattern": "Carousel of 5 portrait video slides (Will not burn**, Engineered for Climate, Creating possibilities, Leading transformation, Holds little appeal for pests); each shows a poster, play icon and title; click opens the video in a fullscreen player",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Slider of portrait (9:16) video poster cards; clicking a card plays the video in a fullscreen overlay.",
+  "reuseGuidance": "One row per slide: poster image | title plus a link to the video (mp4, YouTube or Vimeo). A slide without a video link renders as a plain image card.",
+  "structure": [
+    "One row per slide: poster image | title, video link"
+  ],
+  "sectionMetadata": [],
+  "sourceUrl": "https://www.jameshardie.com/"
+}
