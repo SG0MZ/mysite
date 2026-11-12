@@ -1,0 +1,260 @@
+.carousel-video {
+  position: relative;
+}
+
+.carousel-video .carousel-video-slides {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  cursor: grab;
+}
+
+.carousel-video .carousel-video-slides::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-video .carousel-video-slides.is-dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+  cursor: grabbing;
+  user-select: none;
+}
+
+/* tall 9:16 cards, about 3.5 visible on desktop */
+.carousel-video .carousel-video-slide {
+  position: relative;
+  flex: 0 0 70%;
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  scroll-snap-align: start;
+  background: #333;
+}
+
+.carousel-video .carousel-video-slide-image,
+.carousel-video .carousel-video-slide-image picture {
+  position: absolute;
+  inset: 0;
+  line-height: 0;
+}
+
+.carousel-video .carousel-video-slide-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-user-drag: none;
+}
+
+/* title overlaid at the bottom over a gradient */
+.carousel-video .carousel-video-slide-content {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 48px 16px 10px;
+  background: linear-gradient(to top, rgb(0 0 0 / 60%), transparent);
+  color: #fff;
+}
+
+.carousel-video .carousel-video-slide-content > * {
+  margin: 0;
+}
+
+/* the play button covers the whole card; the icon sits in the centre */
+.carousel-video .carousel-video-play {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.carousel-video .carousel-video-play::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid currentcolor;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-video .carousel-video-play::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 2px);
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 12px solid currentcolor;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-video .carousel-video-play:focus-visible {
+  outline: 3px solid currentcolor;
+  outline-offset: -3px;
+}
+
+/* fullscreen video overlay */
+.carousel-video .carousel-video-modal {
+  box-sizing: border-box;
+  width: 100vw;
+  max-width: 100vw;
+  height: 100dvh;
+  max-height: 100dvh;
+  margin: 0;
+  padding: 56px 16px 16px;
+  border: 0;
+  background: #000;
+  color: #fff;
+}
+
+.carousel-video .carousel-video-modal::backdrop {
+  background: rgb(0 0 0 / 90%);
+}
+
+.carousel-video .carousel-video-modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-video .carousel-video-modal-video,
+.carousel-video .carousel-video-modal-iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: contain;
+}
+
+.carousel-video .carousel-video-modal-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.carousel-video .carousel-video-modal-close::before,
+.carousel-video .carousel-video-modal-close::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 22px;
+  height: 2px;
+  background: currentcolor;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.carousel-video .carousel-video-modal-close::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* controls: arrows left, progress bar right */
+.carousel-video .carousel-video-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.carousel-video .carousel-video-controls[hidden] {
+  display: none;
+}
+
+.carousel-video .carousel-video-arrows {
+  display: flex;
+  gap: 8px;
+}
+
+.carousel-video .carousel-video-prev,
+.carousel-video .carousel-video-next {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid currentcolor;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.carousel-video .carousel-video-next {
+  border-color: transparent;
+  background: var(--link-color, #00843d);
+  color: #fff;
+}
+
+.carousel-video .carousel-video-prev:disabled,
+.carousel-video .carousel-video-next:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.carousel-video .carousel-video-prev::after,
+.carousel-video .carousel-video-next::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border: 2px solid currentcolor;
+  border-bottom: 0;
+  border-left: 0;
+  transform: translate(-30%, -50%) rotate(-135deg);
+}
+
+.carousel-video .carousel-video-next::after {
+  transform: translate(-70%, -50%) rotate(45deg);
+}
+
+.carousel-video .carousel-video-progress {
+  position: relative;
+  flex: 0 1 25%;
+  height: 4px;
+  background: rgb(0 0 0 / 10%);
+}
+
+.carousel-video .carousel-video-progress-bar {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: calc(var(--progress, 0) * 100%);
+  background: var(--link-color, #00843d);
+  transition: width 0.2s;
+}
+
+@media (width >= 600px) {
+  .carousel-video .carousel-video-slide {
+    flex-basis: 40%;
+  }
+}
+
+@media (width >= 900px) {
+  .carousel-video .carousel-video-slide {
+    flex-basis: calc((100% - 48px) / 3.5);
+  }
+}

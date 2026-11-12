@@ -1,0 +1,201 @@
+.cards-blog-slider {
+  position: relative;
+}
+
+.cards-blog-slider .cards-blog-slider-track {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  cursor: grab;
+}
+
+.cards-blog-slider .cards-blog-slider-track::-webkit-scrollbar {
+  display: none;
+}
+
+.cards-blog-slider .cards-blog-slider-track.is-dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+  cursor: grabbing;
+  user-select: none;
+}
+
+/* about 4.3 cards visible on desktop */
+.cards-blog-slider .cards-blog-slider-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 75%;
+  scroll-snap-align: start;
+  background: #fff;
+}
+
+.cards-blog-slider .cards-blog-slider-card-image,
+.cards-blog-slider .cards-blog-slider-card-image picture {
+  display: block;
+  line-height: 0;
+}
+
+.cards-blog-slider .cards-blog-slider-card-image img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  -webkit-user-drag: none;
+}
+
+.cards-blog-slider .cards-blog-slider-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 12px;
+  padding: 16px;
+}
+
+.cards-blog-slider .cards-blog-slider-card-body > * {
+  margin: 0;
+}
+
+/* title with a trailing arrow icon; its link makes the whole card clickable */
+.cards-blog-slider .cards-blog-slider-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.cards-blog-slider .cards-blog-slider-title::after {
+  content: '';
+  flex: 0 0 auto;
+  width: 10px;
+  height: 10px;
+  margin-top: 6px;
+  border-top: 2px solid currentcolor;
+  border-right: 2px solid currentcolor;
+}
+
+.cards-blog-slider .cards-blog-slider-title-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cards-blog-slider .cards-blog-slider-title-link::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.cards-blog-slider .cards-blog-slider-tags {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.cards-blog-slider .cards-blog-slider-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 12px;
+  border: 2px solid var(--link-color, #00843d);
+  border-radius: 999px;
+  color: inherit;
+  font-size: 12px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* controls: arrows left, progress bar right */
+.cards-blog-slider .cards-blog-slider-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.cards-blog-slider .cards-blog-slider-controls[hidden] {
+  display: none;
+}
+
+.cards-blog-slider .cards-blog-slider-arrows {
+  display: flex;
+  gap: 8px;
+}
+
+.cards-blog-slider .cards-blog-slider-prev,
+.cards-blog-slider .cards-blog-slider-next {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid currentcolor;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.cards-blog-slider .cards-blog-slider-next {
+  border-color: transparent;
+  background: var(--link-color, #00843d);
+  color: #fff;
+}
+
+.cards-blog-slider .cards-blog-slider-prev:disabled,
+.cards-blog-slider .cards-blog-slider-next:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.cards-blog-slider .cards-blog-slider-prev::after,
+.cards-blog-slider .cards-blog-slider-next::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border: 2px solid currentcolor;
+  border-bottom: 0;
+  border-left: 0;
+  transform: translate(-30%, -50%) rotate(-135deg);
+}
+
+.cards-blog-slider .cards-blog-slider-next::after {
+  transform: translate(-70%, -50%) rotate(45deg);
+}
+
+.cards-blog-slider .cards-blog-slider-progress {
+  position: relative;
+  flex: 0 1 25%;
+  height: 4px;
+  background: rgb(0 0 0 / 10%);
+}
+
+.cards-blog-slider .cards-blog-slider-progress-bar {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: calc(var(--progress, 0) * 100%);
+  background: var(--link-color, #00843d);
+  transition: width 0.2s;
+}
+
+@media (width >= 600px) {
+  .cards-blog-slider .cards-blog-slider-card {
+    flex-basis: calc((100% - 32px) / 2.3);
+  }
+}
+
+@media (width >= 900px) {
+  .cards-blog-slider .cards-blog-slider-card {
+    flex-basis: calc((100% - 64px) / 4.3);
+  }
+}

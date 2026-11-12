@@ -1,0 +1,20 @@
+{
+  "variantName": "cards-social-grid",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Dense 5-column image-only grid of social posts (author, handle and date revealed on hover; click opens a post overlay); 10 initial items with a centered green Load more button that appends more.",
+  "contentPattern": "Grid of social (Instagram) post tiles: image, author, handle, date, caption excerpt; each opens a post overlay; 'Load more' button. Source is a Sprinklr embed (sprinklr-embed-24392)",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Dense image grid of social media posts with hover details, a post overlay on click and a Load more button.",
+  "reuseGuidance": "One row per post: image | author, handle, date, caption, optional link to the post. Ten posts show at first; Load more reveals ten more. Use cards for regular content cards.",
+  "structure": [
+    "One row per post: image | author, handle, date, caption, link"
+  ],
+  "sectionMetadata": [
+    {
+      "style": "light-grey"
+    }
+  ],
+  "sourceUrl": "https://www.jameshardie.com/"
+}
